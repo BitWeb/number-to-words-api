@@ -1,6 +1,8 @@
 FROM bitweb/php:5.6-nginx
 MAINTAINER bitweb
 
+RUN apt-get update && apt-get istall -y curl
+
 RUN mkdir -p /app
 COPY . /app
 WORKDIR /app
