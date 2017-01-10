@@ -1,0 +1,20 @@
+{
+  "name": "bitweb/number-to-words-api",
+  "description": "Number to words REST API",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Tõnis Tobre",
+      "email": "tobre@bitweb.ee"
+    }
+  ],
+  "require": {
+    "kwn/number-to-words": "~1.2.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": ["src/"]
+    }
+  }
+}
