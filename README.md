@@ -3,6 +3,7 @@
 ## API
 
 /number?locale=:locale&number=:number
+
 /currency?locale=:locale&number=:number&currency=:currency
 
 ### Available locale
